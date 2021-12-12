@@ -10,5 +10,9 @@
             android:visible="true"
             android:id="@+id/nav_profile"
             android:title="@string/menu_profile" />
+        <item
+            android:visible="true"
+            android:id="@+id/nav_theme"
+            android:title="@string/menu_theme" />
     </group>
 </menu>

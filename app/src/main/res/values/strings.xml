@@ -6,9 +6,12 @@
 
     <string name="menu_home">Home</string>
     <string name="menu_profile">Profile</string>
+    <string name="menu_theme">Theme</string>
 
     <!-- Menu Names List End-->
     <!-- TODO: Remove or change this placeholder text -->
     <string name="newOrder">This is New Order UI</string>
     <string name="dashboard">This is Dashboard UI</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
 </resources>

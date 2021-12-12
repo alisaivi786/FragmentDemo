@@ -6,12 +6,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.viewpager.widget.ViewPager;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
 import com.example.fragmentsdemo.Adapter.PagerAdapter;
+import com.example.fragmentsdemo.Controller.ProfileActivity;
+import com.example.fragmentsdemo.Controller.ThemeActivity;
 import com.example.fragmentsdemo.Fragments.DashboardFragment;
 import com.example.fragmentsdemo.Fragments.NewOrderFragment;
 import com.google.android.material.navigation.NavigationView;
@@ -36,7 +40,19 @@ public class HomeActivity extends AppCompatActivity {
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                Toast.makeText(HomeActivity.this, item+" Menu Clicked", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(HomeActivity.this, "Item = "+item.toString(), Toast.LENGTH_SHORT).show();
+                switch (item.toString()){
+                    case "Theme":
+                        //Toast.makeText(HomeActivity.this, "Item = "+item, Toast.LENGTH_SHORT).show();
+                        Intent theme = new Intent(HomeActivity.this, ThemeActivity.class);
+                        startActivity(theme);
+                        break;
+                    case "Profile":
+                        //Toast.makeText(HomeActivity.this, "Item = "+item, Toast.LENGTH_SHORT).show();
+                        Intent profile = new Intent(HomeActivity.this, ProfileActivity.class);
+                        startActivity(profile);
+                        break;
+                }
 
                 drawerLayout.closeDrawers();
                 return false;

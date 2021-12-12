@@ -4,7 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/AliSa/AndroidStudioProjects/FragmentsDemo/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AliSa/AndroidStudioProjects/FragmentsDemo/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/AliSa/AndroidStudioProjects/FragmentsDemo/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AliSa/AndroidStudioProjects/FragmentsDemo/app/src/main/res/layout/activity_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AliSa/AndroidStudioProjects/FragmentsDemo/app/src/main/res/layout/activity_setting.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AliSa/AndroidStudioProjects/FragmentsDemo/app/src/main/res/layout/activity_theme.xml" value="0.22" />
         <entry key="..\:/Users/AliSa/AndroidStudioProjects/FragmentsDemo/app/src/main/res/layout/fragment_dashboard.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/AliSa/AndroidStudioProjects/FragmentsDemo/app/src/main/res/layout/fragment_new_order.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/AliSa/AndroidStudioProjects/FragmentsDemo/app/src/main/res/layout/nav_header_main.xml" value="0.20416666666666666" />
